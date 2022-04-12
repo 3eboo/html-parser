@@ -36,11 +36,7 @@ class BookingSpider(Spider):
         with open('output_data.json', 'w') as output_file:
             json.dump(self.results, output_file)
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     process = CrawlerProcess()
     process.crawl(BookingSpider)
     process.start()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/

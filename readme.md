@@ -1,6 +1,6 @@
 ### Running the project
 
-* Go to project directory (fynd-challenge) & Create virtual env 
+* Go to project directory (html-parser) & Create virtual env 
   * `python3 -m venv .`
 * activate your virtual environment:
   * `source venv/bin/activate`
